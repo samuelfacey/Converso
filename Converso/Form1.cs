@@ -15,6 +15,37 @@ namespace Converso
         public Form1()
         {
             InitializeComponent();
+            cmbModeSelect.Text = "Keep Input";
+        }
+
+        private void btnCallAPI_Click(object sender, EventArgs e)
+        {
+
+            if (cmbModeSelect.Text == "Keep Input")
+            {
+                txtBoxOutput.Text = txtBoxInput.Text;
+            }
+            else
+            {
+                txtBoxOutput.Text = txtBoxInput.Text;
+                txtBoxInput.Clear();
+            }
+
+        }
+
+        private void cmbModeSelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxOutput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

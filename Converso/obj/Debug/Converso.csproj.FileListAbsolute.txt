@@ -1,0 +1,10 @@
+C:\Users\Epics\source\repos\Converso\Converso\bin\Debug\Converso.exe.config
+C:\Users\Epics\source\repos\Converso\Converso\bin\Debug\Converso.exe
+C:\Users\Epics\source\repos\Converso\Converso\bin\Debug\Converso.pdb
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.csproj.AssemblyReference.cache
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.Form1.resources
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.Properties.Resources.resources
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.csproj.GenerateResource.cache
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.csproj.CoreCompileInputs.cache
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.exe
+C:\Users\Epics\source\repos\Converso\Converso\obj\Debug\Converso.pdb
