@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtBoxInput = new System.Windows.Forms.TextBox();
             this.cmbModeSelect = new System.Windows.Forms.ComboBox();
             this.txtBoxOutput = new System.Windows.Forms.TextBox();
             this.btnCallAPI = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.checkTimer1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // txtBoxInput
@@ -77,11 +80,29 @@
             this.btnCallAPI.UseVisualStyleBackColor = true;
             this.btnCallAPI.Click += new System.EventHandler(this.btnCallAPI_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 10000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // checkTimer1
+            // 
+            this.checkTimer1.AutoSize = true;
+            this.checkTimer1.Location = new System.Drawing.Point(195, 235);
+            this.checkTimer1.Name = "checkTimer1";
+            this.checkTimer1.Size = new System.Drawing.Size(88, 17);
+            this.checkTimer1.TabIndex = 5;
+            this.checkTimer1.Text = "Auto Call API";
+            this.checkTimer1.UseVisualStyleBackColor = true;
+            this.checkTimer1.CheckedChanged += new System.EventHandler(this.checkTimer1_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1111, 710);
+            this.Controls.Add(this.checkTimer1);
             this.Controls.Add(this.btnCallAPI);
             this.Controls.Add(this.txtBoxOutput);
             this.Controls.Add(this.cmbModeSelect);
@@ -98,6 +119,8 @@
         private System.Windows.Forms.ComboBox cmbModeSelect;
         private System.Windows.Forms.TextBox txtBoxOutput;
         private System.Windows.Forms.Button btnCallAPI;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.CheckBox checkTimer1;
     }
 }
 
